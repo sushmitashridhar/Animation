@@ -1,0 +1,58 @@
+div{
+    background-color:brown;
+    width: 3200px;
+    height: 1200px;
+    animation-name: demo; 
+    animation-duration: 10s;
+    /* float: right; */
+    position: relative;
+     float: left;
+    background-image: url(display.jpg);
+
+
+}
+@keyframes demo{
+    10%{
+    background-color:orange;
+    border-radius: 100px;
+    }
+    20%{
+        background-color: aqua;
+        border-radius: 100px;
+    }
+    30%{
+        background-color: yellow;
+        border-radius: 100px;
+    }
+    40%{
+        background-color: chocolate;
+        border-radius: 100px;
+    }
+    50%{
+        background-color:palevioletred;
+        border-radius: 100px;
+    }
+    60%{
+        background-color: chartreuse;
+        border-radius: 100px;
+    }
+
+
+
+
+
+    /* from{
+        background-color: black;
+         width: 40px;
+         height: 40px;
+         right: 10%;
+         
+    }
+    to{
+        background-color: cadetblue;
+        width: 100px;
+        height: 100px;
+         border-radius: 100px; 
+        right: 80%;
+    } */
+}
